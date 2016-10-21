@@ -1,0 +1,27 @@
+{
+  "name": "ape-react-spinner",
+  "version": "1.0.0",
+  "description": "react spinner / loader component ",
+  "main": "./src/Spinner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimeInc/ape-react-spinner.git"
+  },
+  "keywords": [
+    "react",
+    "spinner",
+    "loader",
+    "component",
+    "ape",
+    "timeinc"
+  ],
+  "author": "Monish Gupta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TimeInc/ape-react-spinner/issues"
+  },
+  "homepage": "https://github.com/TimeInc/ape-react-spinner#readme"
+}
