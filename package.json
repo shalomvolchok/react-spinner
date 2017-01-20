@@ -27,7 +27,7 @@
   "peerDependencies": {
     "react": ">=0.14.0"
   },
-  "main": "./src/Spinner.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
