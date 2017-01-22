@@ -23,7 +23,8 @@ var taskConfig = {
 		less: {
 			path: 'less',
 			entry: 'react-spinner.less'
-		}
+		},
+		pkgName: 'reactjs-spinner'
 	},
 
 	example: {
