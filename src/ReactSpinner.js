@@ -4,12 +4,12 @@ var ReactSpinner = React.createClass({
 	propTypes: {
 		size: React.PropTypes.number,
 		state: React.PropTypes.string
-  },
+	},
 	getDefaultProps: function() {
-    return {
-      size: 20
-    };
-  },
+		return {
+			size: 20
+		};
+	},
 	render: function() {
 		let spinnerClass = 'mg-react-spinner__main' + ' ' + 'l-center';
     let size = this.props.size;
