@@ -1,18 +1,22 @@
 var React = require('react');
 
 var ReactSpinner = React.createClass({
+	propTypes: {
+		size: React.PropTypes.number,
+		state: React.PropTypes.string
+  },
 	getDefaultProps: function() {
     return {
       size: 20
     };
   },
 	render: function() {
-		let spinnerClass = 'mg-react-spinner__main' + " " + 'l-center';
+		let spinnerClass = 'mg-react-spinner__main' + ' ' + 'l-center';
     let size = this.props.size;
     let margin = -1*(size/2);
     return (
     <div
-      className={(this.props.state==="hide"?"hide ":" ") + 'mg-react-spinner'}
+      className={(this.props.state==='hide'?'hide ':' ') + 'mg-react-spinner'}
       style={{
         'minHeight': size+'px'
       }}>
@@ -26,7 +30,7 @@ var ReactSpinner = React.createClass({
           'borderWidth': 2*size/15
         }}
       ></div>
-    </div>)
+    </div>);
 	}
 });
 
