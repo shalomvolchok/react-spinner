@@ -37,7 +37,7 @@ var ReactSpinner = require('react-spinner');
 ```
 - In the root HTML file
 ```
-	<link rel="stylesheet" href="../../dist/react-spinner.min.css">
+<link rel="stylesheet" href="../../dist/react-spinner.min.css">
 ```
 
 ### Properties
