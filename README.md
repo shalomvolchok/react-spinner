@@ -23,7 +23,7 @@ The easiest way to use react-spinner is to install it from NPM and include it in
 You can also use the standalone build by including `dist/react-spinner.js` in your page. If you use this, make sure you have already included React, and it is available as a global variable.
 
 ```
-<TODO> npm install reactjs-spinner --save
+npm install reactjs-spinner --save
 ```
 
 
