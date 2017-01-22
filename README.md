@@ -1,7 +1,6 @@
 # React Spinner
 
-__COMPONENT DESCRIPTION GOES HERE__
-
+Light weight reactJS spinner/loader. An example usage could be to show this loading spinner while data is loading, such as an asynchronous request to load data for a view.
 
 ## Demo & Examples
 
@@ -24,28 +23,26 @@ The easiest way to use react-spinner is to install it from NPM and include it in
 You can also use the standalone build by including `dist/react-spinner.js` in your page. If you use this, make sure you have already included React, and it is available as a global variable.
 
 ```
-npm install react-spinner --save
+<TODO> npm install reactjs-spinner --save
 ```
 
 
 ## Usage
 
-__EXPLAIN USAGE HERE__
-
+- In your react component
 ```
 var ReactSpinner = require('react-spinner');
 
 <ReactSpinner>Example</ReactSpinner>
 ```
+- In the root HTML file
+```
+	<link rel="stylesheet" href="../../dist/react-spinner.min.css">
+```
 
 ### Properties
 
-* __DOCUMENT PROPERTIES HERE__
-
-### Notes
-
-__ADDITIONAL USAGE NOTES__
-
+* size (number) (default value- 20)
 
 ## Development (`src`, `lib` and the build process)
 
@@ -55,7 +52,5 @@ To build, watch and serve the examples (which will also watch the component sour
 
 ## License
 
-__PUT LICENSE HERE__
-
-Copyright (c) 2017 Monish Gupta.
+react-spinner is released under the [MIT License](http://opensource.org/licenses/MIT).
 
