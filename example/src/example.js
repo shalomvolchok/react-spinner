@@ -1,6 +1,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var ReactSpinner = require('react-spinner');
+var ReactSpinner = require('reactjs-spinner');
 
 var App = React.createClass({
 	render () {

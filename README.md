@@ -31,7 +31,7 @@ npm install reactjs-spinner --save
 
 - In your react component
 ```
-var ReactSpinner = require('react-spinner');
+var ReactSpinner = require('reactjs-spinner');
 
 <ReactSpinner>Example</ReactSpinner>
 ```
@@ -53,4 +53,3 @@ To build, watch and serve the examples (which will also watch the component sour
 ## License
 
 react-spinner is released under the [MIT License](http://opensource.org/licenses/MIT).
-
