@@ -2,7 +2,7 @@ var React = require('react');
 
 var ReactSpinner = React.createClass({
 	render () {
-		return <div>React Spinner</div>;
+		return <div className="mg-react-spinner">React Spinner</div>;
 	}
 });
 
