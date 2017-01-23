@@ -10,6 +10,10 @@ var initGulpTasks = require('react-component-gulp-tasks');
  * You can also add your own additional gulp tasks if you like.
  */
 
+/**
+ * `gulp publish:examples` to update demo at https://monish001.github.io/react-spinner/
+ */
+
 var taskConfig = {
 
 	component: {
