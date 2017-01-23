@@ -29,7 +29,3 @@ example/dist
 *.sublime-*
 .idea/
 *.DS_Store
-
-# Files generated from build
-lib
-dist
