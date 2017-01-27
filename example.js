@@ -16,6 +16,8 @@ var App = React.createClass({
 			React.createElement(ReactSpinner, null),
 			'With given size of 40 units.',
 			React.createElement(ReactSpinner, { size: 40 }),
+			'With given colors',
+			React.createElement(ReactSpinner, { size: 40, borderColor: '#f2f0f0', borderTopColor: '#e60000' }),
 			'Done.'
 		);
 	}
