@@ -13,9 +13,12 @@ var ReactSpinner = React.createClass({
 	render: function() {
 		let spinnerClass = 'mg-react-spinner__main' + ' ' + 'l-center';
     let size = this.props.size;
+
     let margin = -1*(size/2);
 		let borderWidth = 2*size/15;
 		let minHeight = (borderWidth + size)*1.41;
+		let borderColor = this.props.borderColor || '#f3f3f3';
+		let borderTopColor = this.props.borderTopColor || '#3498db';
     return (
     <div
       className={(this.props.state==='hide'?'hide ':' ') + 'mg-react-spinner'}
@@ -29,7 +32,9 @@ var ReactSpinner = React.createClass({
           'height': size+'px',
           'marginTop': margin,
           'marginLeft': margin,
-          'borderWidth': borderWidth
+          'borderWidth': borderWidth,
+					'border-color' : borderColor,
+					'border-top-color' : borderTopColor
         }}
       ></div>
     </div>);
