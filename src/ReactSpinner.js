@@ -37,8 +37,8 @@ var ReactSpinner = React.createClass({
           'marginTop': margin,
           'marginLeft': margin,
           'borderWidth': borderWidth,
-					'border-color' : borderColor,
-					'border-top-color' : borderTopColor
+	  'borderColor' : borderColor,
+	  'borderTopColor' : borderTopColor
         }}
       ></div>
     </div>);
